@@ -1,28 +1,55 @@
-// TODO: Include packages needed for this application
+//Packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-// TODO: Create an array of questions for user input
+// Array of questions for users to input
 // const questions = [];
-
 inquirer
   .prompt([
     {
       type: "input",
-      name: "name",
-      message: "What is your name?",
+      name: "title",
+      message: "What is the title of your project?",
     },
     {
       type: "input",
-      message: "What languages do you know?",
-      name: "stack",
-      choices: ["HTML", "CSS", "JavaScript", "MySQL"],
+      name: "description",
+      message: "What is the description of your project?",
+    },
+    {
+      type: "checkbox",
+      name: "tableOfContents",
+      message: "What would you like to include in your table of contents?",
+    },
+    {
+      type: "input",
+      name: "installation",
+      message: "What is required for installation?",
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: "What is required for installation?",
     },
     {
       type: "list",
-      message: "What is your preferred method of communication?",
-      name: "contact",
-      choices: ["email", "phone", "telekinesis"],
+      name: "License",
+      message: "",
+    },
+    {
+      type: "input",
+      name: "contributions",
+      message: "",
+    },
+    {
+      type: "input",
+      name: "tests",
+      message: "",
+    },
+    {
+      type: "input",
+      name: "questions",
+      message: "Should someone have questions, what is your email address?",
     },
   ])
   .then((data) => {
@@ -34,9 +61,11 @@ inquirer
   });
 
 // TODO: Create a function to write README file
+//Function that writes README file
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
+//Function that initializes the app
 function init() {}
 
 // Function call to initialize app
