@@ -35,17 +35,27 @@ inquirer
     {
       type: "input",
       name: "contributions",
-      message: "",
+      message: "Who are the contributors to this project?",
     },
     {
       type: "input",
       name: "tests",
-      message: "",
+      message: "What commands are needed to run tests?",
     },
     {
       type: "input",
-      name: "questions",
-      message: "Should someone have questions, what is your email address?",
+      name: "email",
+      message: "What is your email address?",
+    },
+    {
+      type: "input",
+      name: "github",
+      message: "What is your GitHub username?",
+    },
+    {
+      type: "input",
+      name: "repo",
+      message: "What is the link to your GitHub repository?",
     },
   ])
   .then((data) => {
