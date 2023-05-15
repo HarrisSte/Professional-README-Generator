@@ -1,6 +1,8 @@
 //Packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+const { generateKey } = require("crypto");
+const generateMarkdown = require("./generateMarkdown");
 
 // Array of questions for users to input
 // const questions = [];
@@ -79,7 +81,15 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 //Function that initializes the app
-function init() {}
+async function init() {
+  try {
+    const answers = await askQuestions();
+    generateMarkdown(answers);
+    writeToFile("README.md", generateMarkdown(answers));
+  } catch (err) {
+    console.log(err);
+  }
+}
 
 // Function call to initialize app
 init();
