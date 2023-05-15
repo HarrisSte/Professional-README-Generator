@@ -29,7 +29,7 @@ inquirer
     {
       type: "input",
       name: "usage",
-      message: "What is required for installation?",
+      message: "",
     },
     {
       type: "list",
