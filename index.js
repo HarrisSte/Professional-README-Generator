@@ -17,11 +17,6 @@ inquirer
       message: "What is the description of your project?",
     },
     {
-      type: "checkbox",
-      name: "tableOfContents",
-      message: "What would you like to include in your table of contents?",
-    },
-    {
       type: "input",
       name: "installation",
       message: "What is required for installation?",
