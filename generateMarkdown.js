@@ -18,8 +18,28 @@ function generateMarkdown(data) {
 ## description ${data.description}
 
 ## Table of Contents
--[Installation](#installation)
--[Usage](#usage)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Tests](#tests)
+- [Contributors](#contributors)
+
+## Installation
+Packages that are required to successfully run this program are: ${data.installation}
+
+## Usage
+Ways in which this program and be used are: 
+
+## License
+The license for this program is: ${data.license}
+
+## Contributors
+Those who helped develop this program are: ${data.contributors}
+
+## Contact
+\n![Badge]($888888888)
+\n![Profile Picture](${profilePic})
+\n!
 
 `;
 }
