@@ -24,12 +24,13 @@ inquirer
     {
       type: "input",
       name: "usage",
-      message: "",
+      message: "In what ways can your project be used?",
     },
     {
       type: "list",
       name: "License",
-      message: "",
+      message: "What kind of license do you have for this project?",
+      choices: ["MIT", "Apache", "GPL", "None"],
     },
     {
       type: "input",
