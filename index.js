@@ -62,7 +62,14 @@ inquirer
 
 // TODO: Create a function to write README file
 //Function that writes README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, "utf8", function (err) {
+    if (err) {
+      throw err;
+    }
+    console.log("Congratulations! Your README is written and compeleted!");
+  });
+}
 
 // TODO: Create a function to initialize app
 //Function that initializes the app
