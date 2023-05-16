@@ -1,7 +1,7 @@
-# Professional README Generator
+# HERE IS A TITLE
 
 ## Description
-This is a description
+HERE IS A DESCRIPTION
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,20 +12,21 @@ This is a description
 - [Contact](#contact)
 
 ## Installation
-Packages that are required to successfully run this program are: Inquirer
+Packages that are required to successfully run this program are: NOTHING
 
 ## Usage
-Ways in which this program can be used: Develop a README using the command line
+Ways in which this program can be used: EVERYWHERE
 
 ## License
-The license for this program is: None
+The license for this program is: MIT
 
 ## Contributors
-Those who helped develop this program are: A lot...
+Those who helped develop this program are: SANTA
 
 ## Tests
-Commands needed to run tests: node index.js
+Commands needed to run tests: TYPING
 
 ## Contact
-GitHub: HarrisSte
-Email: st3phanie.harris@gmail.com
+GitHub: GUTHUB USERNAME
+<br>
+Email: EMAIL@EMAIL.COM

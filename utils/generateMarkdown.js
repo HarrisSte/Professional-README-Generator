@@ -52,6 +52,7 @@ Commands needed to run tests: ${tests}
 
 ## Contact
 GitHub: ${github}
+<br>
 Email: ${email}
 `;
 }
