@@ -57,13 +57,6 @@ const questions = [
     message: "What is the link to your GitHub repository?",
   },
 ];
-// .then((data) => {
-//   const filename = `${data.name.toLowerCase().split(" ").join("")}.json`;
-
-//   fs.writeFile(filename, JSON.stringify(data, null, "\t"), (err) =>
-//     err ? console.log(err) : console.log("Success!")
-//   );
-// });
 
 // TODO: Create a function to write README file
 //Function that writes README file
