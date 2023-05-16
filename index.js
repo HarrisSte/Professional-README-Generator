@@ -1,11 +1,10 @@
 //Packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./generateMarkdown");
+const generateMarkdown = require("./generateMarkdown.js");
 
 // Array of questions for users to input
-const questions = [];
-return inquirer.prompt([
+const questions = [
   {
     type: "input",
     name: "title",
@@ -57,7 +56,7 @@ return inquirer.prompt([
     name: "repo",
     message: "What is the link to your GitHub repository?",
   },
-]);
+];
 // .then((data) => {
 //   const filename = `${data.name.toLowerCase().split(" ").join("")}.json`;
 
@@ -73,7 +72,7 @@ function writeToFile(fileName, data) {
     if (err) {
       throw err;
     }
-    console.log("Congratulations! Your README is written and compeleted!");
+    console.log("Congratulations! Your README is written and completed!");
   });
 }
 
@@ -91,5 +90,5 @@ function init() {
     });
 }
 
-// Function call to initialize app
+//Function call to initialize app
 init();

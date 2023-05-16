@@ -17,40 +17,42 @@ function generateMarkdown({
   installation,
   usage,
   license,
-  contributors,
+  contributions,
   tests,
   github,
   email,
-  instructions,
 }) {
-  return `# ${data.title}
+  return `# ${title}
 
-## Description ${data.description}
+## Description
+${description}
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Tests](#tests)
 - [Contributors](#contributors)
+- [Tests](#tests)
+- [Contact](#contact)
 
 ## Installation
-Packages that are required to successfully run this program are: ${data.installation}
+Packages that are required to successfully run this program are: ${installation}
 
 ## Usage
-Ways in which this program and be used are: 
+Ways in which this program can be used: ${usage}
 
 ## License
-The license for this program is: ${data.license}
+The license for this program is: ${license}
 
 ## Contributors
-Those who helped develop this program are: ${data.contributors}
+Those who helped develop this program are: ${contributions}
+
+## Tests
+Commands needed to run tests: ${tests}
 
 ## Contact
-\n![Badge]($888888888)
-\n![Profile Picture](${profilePic})
-\n!
-
+GitHub: ${github}
+Email: ${email}
 `;
 }
 
