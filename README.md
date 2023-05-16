@@ -1,7 +1,7 @@
-# kjfsdf
+# Professional README Generator
 
 ## Description
-kjdhjsdjdsjk
+This is a description
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,20 +12,20 @@ kjdhjsdjdsjk
 - [Contact](#contact)
 
 ## Installation
-Packages that are required to successfully run this program are: kjfdkfshjfjh
+Packages that are required to successfully run this program are: Inquirer
 
 ## Usage
-Ways in which this program can be used: hjsdhjfsdjdf
+Ways in which this program can be used: Develop a README using the command line
 
 ## License
-The license for this program is: MIT
+The license for this program is: None
 
 ## Contributors
-Those who helped develop this program are: hjsfdsfdhjsfj
+Those who helped develop this program are: A lot...
 
 ## Tests
-Commands needed to run tests: jkhksfhsdhjsfj
+Commands needed to run tests: node index.js
 
 ## Contact
-GitHub: jksfdjksfdjkfs
-Email: kjsfdjksfdjksf
+GitHub: HarrisSte
+Email: st3phanie.harris@gmail.com

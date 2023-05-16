@@ -51,11 +51,6 @@ const questions = [
     name: "github",
     message: "What is your GitHub username?",
   },
-  {
-    type: "input",
-    name: "repo",
-    message: "What is the link to your GitHub repository?",
-  },
 ];
 
 // TODO: Create a function to write README file
