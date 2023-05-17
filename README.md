@@ -1,7 +1,7 @@
-# HERE IS A TITLE
+# AMAZING TITLE
 
 ## Description
-HERE IS A DESCRIPTION
+BEST DESCRIPTION
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,18 +15,18 @@ HERE IS A DESCRIPTION
 Packages that are required to successfully run this program are: NOTHING
 
 ## Usage
-Ways in which this program can be used: EVERYWHERE
+Ways in which this program can be used: EVERYTHING
 
 ## License
 The license for this program is: MIT
 
 ## Contributors
-Those who helped develop this program are: SANTA
+Those who helped develop this program are: POTATOE
 
 ## Tests
-Commands needed to run tests: TYPING
+Commands needed to run tests: TOMATOS
 
 ## Contact
-GitHub: GUTHUB USERNAME
+GitHub: USERNAME
 <br>
-Email: EMAIL@EMAIL.COM
+Email: EMAIL ADDRESS
