@@ -24,7 +24,7 @@ The license for this program is MIT
 
 
 ## Contributors
-Those who helped develop this program are There were many sources that I pulled from while working on this project. Some of which were my instructor, TAs, and classmates. I also visited office hours. Outside sources were sites such as W3Schools, MDN, Medium, and StackOverflow. I also read through the materials for the week sent out by Lisa S.
+There were many sources that I pulled from while working on this project. Some of which were my instructor, TAs, and classmates. I also visited office hours. Outside sources were sites such as W3Schools, MDN, Medium, and StackOverflow. I also read through the materials for the week sent out by Lisa S.
 
 ## Tests
 Commands needed to run tests:
@@ -33,3 +33,7 @@ Commands needed to run tests:
 GitHub: HarrisSte
 <br>
 Email: st3phanie.harris@gmail.com
+
+## Screenshot
+![SampleREADMEimg](https://github.com/HarrisSte/Professional-README-Generator/assets/126029841/25cf98d5-4b27-4670-a2f3-240a5d2667cb)
+
