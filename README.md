@@ -1,7 +1,9 @@
 # AMAZING TITLE
 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
-BEST DESCRIPTION
+SKDJH
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,21 +14,21 @@ BEST DESCRIPTION
 - [Contact](#contact)
 
 ## Installation
-Packages that are required to successfully run this program are: NOTHING
+Packages that are required to successfully run this program are: ABSCHHFS
 
 ## Usage
-Ways in which this program can be used: EVERYTHING
+Ways in which this program can be used: TRST TEST TES
 
 ## License
 The license for this program is: MIT
 
 ## Contributors
-Those who helped develop this program are: POTATOE
+Those who helped develop this program are: TES TEST EST
 
 ## Tests
-Commands needed to run tests: TOMATOS
+Commands needed to run tests: ABDEFGHIJKLMOP
 
 ## Contact
-GitHub: USERNAME
+GitHub: DO I HAVE THIS?
 <br>
-Email: EMAIL ADDRESS
+Email: WOOP WOOP

@@ -9,10 +9,6 @@ function renderLicenseBadge(license) {
     } else {
       if (license == "GPL") {
         return "https://img.shields.io/badge/License-GPLv3-blue.svg";
-      } else {
-        if (license == "None") {
-          return "";
-        }
       }
     }
   }
@@ -29,10 +25,6 @@ function renderLicenseLink(license) {
     } else {
       if (license == "GPL") {
         return "https://www.gnu.org/licenses/gpl-3.0";
-      } else {
-        if (license == "None") {
-          return "";
-        }
       }
     }
   }
@@ -41,6 +33,10 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+  if (license == "None") {
+    return "";
+  }
+
   return `[![License: ${license}](${renderLicenseBadge(
     license
   )})](${renderLicenseLink(license)})`;
@@ -79,6 +75,7 @@ Ways in which this program can be used: ${usage}
 
 ## License
 The license for this program is: ${license}
+${renderLicenseSection(license)}
 
 ## Contributors
 Those who helped develop this program are: ${contributions}
