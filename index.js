@@ -59,7 +59,7 @@ function writeToFile(fileName, data) {
     if (err) {
       throw err;
     }
-    console.log("Congratulations! Your README is written and completed!");
+    console.log("Huzzah! Your README is ready for you to check out!");
   });
 }
 

@@ -65,17 +65,19 @@ ${description}
 - [Contact](#contact)
 
 ## Installation
-Packages that are required to successfully run this program are: ${installation}
+Packages that are required to successfully run this program are ${installation}
 
 ## Usage
 Ways in which this program can be used: ${usage}
 
 ## License
-The license for this program is: ${license}
 ${renderLicenseSection(license)}
+<br>
+The license for this program is ${license}
+
 
 ## Contributors
-Those who helped develop this program are: ${contributions}
+Those who helped develop this program are ${contributions}
 
 ## Tests
 Commands needed to run tests: ${tests}
