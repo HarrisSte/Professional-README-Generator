@@ -27,7 +27,7 @@ The license for this program is MIT
 Those who helped develop this program are There were many sources that I pulled from while working on this project. Some of which were my instructor, TAs, and classmates. I also visited office hours. Outside sources were sites such as W3Schools, MDN, Medium, and StackOverflow. I also read through the materials for the week sent out by Lisa S.
 
 ## Tests
-Commands needed to run tests: node index.js
+Commands needed to run tests:
 
 ## Contact
 GitHub: HarrisSte
