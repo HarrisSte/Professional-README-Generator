@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Fucntion that grabs the badge img for each license. If "None" is selected, then it will return an empty string.
 function renderLicenseBadge(license) {
   if (license == "MIT") {
     return "https://img.shields.io/badge/License-MIT-yellow.svg";
@@ -14,8 +13,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function that grabs the license link for users to learn more. If "None" is selected, then it will return an empty string.
 function renderLicenseLink(license) {
   if (license == "MIT") {
     return "https://opensource.org/licenses/MIT";
@@ -30,8 +28,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function that renders the license sections. If "None" is selected, then it will return an empty string.
 function renderLicenseSection(license) {
   if (license == "None") {
     return "";
@@ -42,7 +39,7 @@ function renderLicenseSection(license) {
   )})](${renderLicenseLink(license)})`;
 }
 
-// TODO: Create a function to generate markdown for README
+// Function that generates markdown for README
 function generateMarkdown({
   title,
   description,
