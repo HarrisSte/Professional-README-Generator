@@ -6,7 +6,8 @@ This application helps users create a professional README.md file using the comm
 
 ## Screenshot
 
-ADD SCREENSHOT OF GENERATED README FILE
+![M9Chall](https://github.com/HarrisSte/Professional-README-Generator/assets/126029841/ce6f5f27-c547-4dbf-a8dd-3ade2c1a473a)
+
 
 ## Video Demonstration
 
