@@ -4,11 +4,13 @@
 
 This application helps users create a professional README.md file using the command line. They are able to enter in information based on prompts displayed on the command line. When a user is prompted for a license, they will be able to have a choice of MIT, Apache, GPL, or None. Depending on the license chosen, the README preview will display a badge that is linked to additional information about that license. Once the user has answered all of the questions, the terminal will display a congratulatory message and a README file will be generated.
 
-## Link
-
 ## Screenshot
 
+ADD SCREENSHOT OF GENERATED README FILE
+
 ## Video Demonstration
+
+ADD VIDEO DEMONSTRATON OF APPLICATION
 
 ## Contribtions
 
