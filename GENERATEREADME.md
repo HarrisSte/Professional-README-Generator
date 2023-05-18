@@ -1,7 +1,7 @@
-# Professional README Generator
+# This is the title of my project.
 
 ## Description
-This application helps users create a professional README.md file using the command line. They are able to enter in information based on prompts displayed on the command line. When a user is prompted for a license, they will be able to have a choice of MIT, Apache, GPL, or None. Depending on the license chosen, the README preview will display a badge that is linked to additional information about that license. Once the user has answered all of the questions, the terminal will display a congratulatory message and a README file will be generated.
+This is the description of m y project.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,28 +12,24 @@ This application helps users create a professional README.md file using the comm
 - [Contact](#contact)
 
 ## Installation
-Packages that are required to successfully run this program are node.js and inquirer
+Packages that are required to successfully run this program are This is where you say what is required for installation.
 
 ## Usage
-Ways in which this program can be used: Users can use this project to easily generate a README file when they are finished with a project.
+Ways in which this program can be used: To generate README files. 
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 <br>
-The license for this program is MIT
+The license for this program is GPL
 
 
 ## Contributors
-There were many sources that I pulled from while working on this project. Some of which were my instructor, TAs, and classmates. I also visited office hours. Outside sources were sites such as W3Schools, MDN, Medium, and StackOverflow. I also read through the materials for the week sent out by Lisa S.
+Those who helped develop this program are THis is where you state who helped you.
 
 ## Tests
-Commands needed to run tests:
+Commands needed to run tests: node index.js
 
 ## Contact
-GitHub: HarrisSte
+GitHub: GITHUB Username
 <br>
-Email: st3phanie.harris@gmail.com
-
-## Screenshot
-![SampleREADMEimg](https://github.com/HarrisSte/Professional-README-Generator/assets/126029841/25cf98d5-4b27-4670-a2f3-240a5d2667cb)
-
+Email: EMAIL@email.com
